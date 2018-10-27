@@ -22,3 +22,42 @@ for(dia in semana)
     console.log(dia);
     console.log(semana[dia])
 }
+
+function suma()
+{
+    n1 = 2;
+    n2 = 3;
+    res = n1+n2;
+    console.log("la suma es:"+res);
+}
+suma()
+
+var cad = 'En un lugar de la Mancha de cuyo nombre no quiero acordarme...'
+var letras = cad.split('');
+var resul = '';
+for(i in letras)
+{
+    if(letras[i]=='a')
+    {
+        break;
+    }    
+    else
+    {
+        resul += letras[i];
+    }
+}
+alert(resul);
+
+var parrafos = document.getElementsByTagName("p");
+console.log(parrafos);
+parrafos[1].innerText ="Nuevo texto"
+
+var mimensaje = document.getElementById("mensaje");
+mimensaje.style.background = "gray";
+console.log(mimensaje);
+
+function refrescarvalor()
+{
+    var entrada = document.getElementById("entrada");
+    mimensaje.innerHTML = entrada.value;
+}

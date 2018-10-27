@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    background: #f2f2f2;
+    margin: 0%;
+    padding: 0%;
+}
+header,main,footer{
+    /*border: blue solid 1px;*/
+    background: #f2f2f2;
+}
+main{
+    height: auto;
+    background: #dde3e7;
+}
+/*
+footer{
+    height: 200px;
+    width: 100%;
+    background: gray;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    right:0px;
+}
+*/
+.encabezado{
+    width: 33%;
+    border: #f2f2f2 1px;
+    border-radius: 10px;    
+    padding: 10px;
+    display: inline-table;
+    box-sizing: border-box;
+}
+.contenedor1{
+    width: 49%;
+    background: black;
+    display: inline-table;
+    box-sizing: border-box;
+}
+.contenedor2{
+    width: 49%;  
+    background: rgb(221, 227,231);
+    display: inline-table;
+    box-sizing: border-box;
+    margin-left: -4px;
+}
+.contenedor3{
+    width: 49%;
+    background: black;
+    display: inline-table;
+    box-sizing: border-box;
+    height: auto;
+    color: white;
+    padding-left: 80px;
+}
+.contenedor4{
+    width: 49%;
+    background:rgb(221, 227,231);
+    display: inline-table;
+    box-sizing: border-box;
+    color: rgba(29, 28, 28, 0.877);
+    text-align: right;
+    padding-right: 80px;
+}
+
+h1,p{
+    font-family: "Muli", sans-serif;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.14286rem;
+    margin: 1.42857rem 0;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    font-size: 18px;
+}
+span{
+    font-size: 22px;
+    font-weight: bold;
+}
